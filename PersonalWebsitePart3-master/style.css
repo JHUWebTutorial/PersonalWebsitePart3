@@ -1,0 +1,173 @@
+/* Styles the header */
+h1 {
+   font-size: 60px;
+   bottom: 30px;
+} 
+
+body {
+ /**background-image: url("http://p1.pichost.me/i/11/1342311.jpg"); *//
+
+}
+
+.top{
+	height: 100px;
+	margin-top: -30px;
+	padding-top: 5px;
+	padding-right: 50px;
+	min-width: 1024px;
+}
+
+
+
+.space {
+	height: 30px;
+}
+
+/*********************************************************************/
+
+/* Styles the individual elements in the Navbar */
+nav li{
+	width: 200px;
+	display: inline;
+	margin: 10px;
+	position: relative;
+	top: -80px;
+	font-size: 25px;
+	padding: 10px;
+}
+
+
+/* Styles the nav bar as a whole */
+nav {
+	text-align: right;
+}
+
+/*FEEL FREE TO PLAY AROUND WITH THE COLORS FOR THE FOLLOWING */
+/*Styles the properties of the non active links*/
+.notOn {
+	color: navy;
+	text-decoration: none;
+}
+
+/*Styles the properties of the non active links*/
+ a.currentlink {
+	color: blue;
+	text-decoration: none;
+}
+
+/*Styles the properties of the non active links when you hover over them */
+a.notOn:hover {
+	color: red;
+	text-decoration: none;
+}
+
+/*Styles the properties of the  active links when you hover over them */
+a.currentlink:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
+/*********************************************************************/
+
+.jumbotron {
+	position: relative;
+	background-image: url('banner.jpg');
+	background-size: cover;
+	height: 375px;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+
+
+   text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.cent {
+	padding-left: 37%;
+}
+
+h2 {
+  
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: navy;
+  text-outline;
+  
+}
+
+.textz {
+	width: 72%;
+	float: right;
+	margin-top: -400px;
+}
+
+.bod {
+	height: 600px;
+	display-content: top;
+}
+
+.picture {
+    margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 5px; 
+	width: 28%;
+	border: none;
+}
+
+.thepic {
+	width: 375px;
+
+}
+
+/*********************************************************************/
+
+/* Table styling */
+.large {
+    font-size: 32px;
+}
+
+.redStyle {
+    color: red;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Makes every other table element gray*/
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+/*Website Footer */
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
