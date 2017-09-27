@@ -1,2 +1,2 @@
-# PersonalWebsitePart3
-The third part to the 3-part personal website workshop
+# PersonalWebsitePart2
+This is roughly how far we got after our second meeting.
